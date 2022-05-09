@@ -1,0 +1,26 @@
+{
+	"emulators": {
+		"default": {
+			"serviceAccount": "service"
+		}
+	},
+	"contracts": {
+		"FlowServiceAccount": "f8d6e0586b0a20c7",
+		"FlowFees": "e5a8b7f23e8b548f",
+		"FlowStorageFees": "f8d6e0586b0a20c7",
+		"FlowToken": "0ae53cb6e3f42a79",
+		"FungibleToken": "ee82856bf20e2aa6"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"service": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "468f9e4bfdbd0b8ab9ccf2e292909ea8ad06abbb4e89b8a8a42c48f64f30a71d"
+		}
+	},
+	"deployments": {}
+}
